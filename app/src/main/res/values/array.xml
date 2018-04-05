@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Custom 0-7 -->
     <string-array
         name="custom_stickers">
         <item>Panini Logo</item>
@@ -10,5 +11,821 @@
         <item>2018 World Cup Logo 1</item>
         <item>2018 World Cup Logo 2</item>
         <item>Official Ball</item>
+    </string-array>
+    <!-- Stadium 8-19 -->
+    <string-array
+        name="stadium_stickers">
+        <item>Ekaterinburg Arena</item>
+        <item>Kaliningrad Stadium</item>
+        <item>Kazan Arena</item>
+        <item>Spartak Stadium</item>
+        <item>Nizhny Novgorod Stadium</item>
+        <item>Luzhniki Stadium</item>
+        <item>Rostov Arena</item>
+        <item>Saint Petersburg Stadium</item>
+        <item>Samara Arena</item>
+        <item>Mordovia Arena</item>
+        <item>Fisht Stadium</item>
+        <item>Volgograd Arena</item>
+    </string-array>
+    <!-- Host City 20-31 -->
+    <string-array
+        name="host_cities_stickers">
+        <item>Moscow 1</item>
+        <item>Moscow 2</item>
+        <item>Kaliningrad</item>
+        <item>Saint Petersburg</item>
+        <item>Sochi</item>
+        <item>Rostov-On-Don</item>
+        <item>Volgogarad</item>
+        <item>Kazan</item>
+        <item>Samara Arena</item>
+        <item>Mordovia Arena</item>
+        <item>Nizhny Novgorod</item>
+        <item>Samara</item>
+        <item>Ekaterinburg</item>
+        <item>Saransk</item>
+    </string-array>
+    <!-- Russia Team 32-51 -->
+    <string-array
+        name="russia_stickers">
+        <item>Russia Logo</item>
+        <item>Russia Photo</item>
+        <item>Igor Akinfeev</item>
+        <item>Igor Smolnikov</item>
+        <item>Viktor Vasin</item>
+        <item>Mário Fernandes</item>
+        <item>Fedor Kudryashov</item>
+        <item>Ilya Kutepov</item>
+        <item>Dmitri Kombarov</item>
+        <item>Aleksei Miranchuk</item>
+        <item>Denis Glushakov</item>
+        <item>Aleksandr Golovin</item>
+        <item>Yuri Zhirkov</item>
+        <item>Aleksandr Samedov</item>
+        <item>Aleksandr Erokhin</item>
+        <item>Alan Dzagoev</item>
+        <item>Daler Kuzyayev</item>
+        <item>Dmitry Poloz</item>
+        <item>Fedor Smolov</item>
+        <item>Aleksandr Kokorin</item>
+    </string-array>
+    <!-- Saudi Arabia Team 52-71 -->
+    <string-array
+        name="saudi_arabia_stickers">
+        <item>Saudi Arabia Logo</item>
+        <item>Saudi Arabia Photo</item>
+        <item>Abdullah Al-Mayouf</item>
+        <item>Osama Hawsawi</item>
+        <item>Abdullah Al-Zori</item>
+        <item>Mansoor Al-Harbi</item>
+        <item>Omar Hawsawi</item>
+        <item>Yasser Al-Shahrani</item>
+        <item>Motaz Hawsawi</item>
+        <item>Mohammed Al-Breik</item>
+        <item>Taisir Al-Jassim</item>
+        <item>Salman Al-Faraj</item>
+        <item>Abdulmalek Al-Khaibri</item>
+        <item>Salman Al-Moasher</item>
+        <item>Yahya Al-Shehri</item>
+        <item>Salem Al-Dawsari</item>
+        <item>Nawaf Al-Abed</item>
+        <item>Mohammad Al-Sahlawi</item>
+        <item>Nasser Al-Shamrani</item>
+        <item>Fahad Al-Muwallad</item>
+    </string-array>
+    <!-- Egypt Team 72-91 -->
+    <string-array
+        name="egypt_stickers">
+        <item>Egypt Logo</item>
+        <item>Egypt Photo</item>
+        <item>Essam El Hadary</item>
+        <item>Ali Gabr</item>
+        <item>Ahmed El Mohamady </item>
+        <item>Omar Gaber</item>
+        <item>Ramy Rabia</item>
+        <item>Ahmed Hegazi</item>
+        <item>Ahmed Abdelmonem Fathy</item>
+        <item>Mohamed Abdel Shafy</item>
+        <item>Saad Samir</item>
+        <item>Tarek Hamed</item>
+        <item>Mahmoud Kahraba</item>
+        <item>Mohamed Elneny</item>
+        <item>Mahmoud Trezeguet</item>
+        <item>Abdallah Said</item>
+        <item>Ramadan Sobhi</item>
+        <item>Ahmed Hassan</item>
+        <item>Mohamed Salah</item>
+        <item>Amr Gamal</item>
+    </string-array>
+    <!-- Uruguay Team 92-111 -->
+    <string-array
+        name="uruguay_stickers">
+        <item>Uruguay Logo</item>
+        <item>Uruguay Photo</item>
+        <item>Fernando Muslera</item>
+        <item>Maxi Pereira</item>
+        <item>Diego Godin</item>
+        <item>Martin Caceres</item>
+        <item>Jose Gimenez</item>
+        <item>Sebastian Coates</item>
+        <item>Gaston Silva</item>
+        <item>Mathias Corujo</item>
+        <item>Egidio Arevalo Rios</item>
+        <item>Alvaro Gonzalez</item>
+        <item>Nicolas Lodeiro</item>
+        <item>Carlos Sanchez</item>
+        <item>Cristian Rodriguez</item>
+        <item>Matias Vecino</item>
+        <item>Edinson Cavani</item>
+        <item>Luis Suarez</item>
+        <item>Cristhian Stuani</item>
+        <item>Diego Rolan</item>
+    </string-array>
+    <!-- Portugal Team 112-131 -->
+    <string-array
+        name="portugal_stickers">
+        <item>Portugal Logo</item>
+        <item>Portugal Photo</item>
+        <item>Rui Patricio</item>
+        <item>Bruno Alves</item>
+        <item>Pepe</item>
+        <item>Jose Fonte</item>
+        <item>Eliseu</item>
+        <item>Cedric</item>
+        <item>Raphael Guerreiro</item>
+        <item>Joao Moutinho</item>
+        <item>Joao Mario</item>
+        <item>Danilo Pereira</item>
+        <item>William Carvalho</item>
+        <item>Andre Gomes</item>
+        <item>Ricardo Quaresma</item>
+        <item>Bernardo Silva</item>
+        <item>Andre Silva</item>
+        <item>Gelson Martins</item>
+        <item>Cristiano Ronaldo</item>
+        <item>Nani</item>
+    </string-array>
+    <!-- Spain Team 132-151 -->
+    <string-array
+        name="spain_stickers">
+        <item>Spain Logo</item>
+        <item>Spain Photo</item>
+        <item>David de Gea</item>
+        <item>Jordi Alba</item>
+        <item>Nacho</item>
+        <item>Nacho Monreal</item>
+        <item>Gerard Pique</item>
+        <item>Sergio Ramos</item>
+        <item>Daniel Carvajal</item>
+        <item>Sergio Busquets</item>
+        <item>Thiago</item>
+        <item>Isco</item>
+        <item>Koke</item>
+        <item>Marco Asensio</item>
+        <item>Andrés Iniesta</item>
+        <item>David Villa</item>
+        <item>Saul Niguez</item>
+        <item>Alvaro Morata</item>
+        <item>Vitolo</item>
+        <item>Diego Costa</item>
+    </string-array>
+    <!-- Morocco Team 132-151 -->
+    <string-array
+        name="morocco_stickers">
+        <item>Morocco Logo</item>
+        <item>Morocco Photo</item>
+        <item>Munir Mohamedi</item>
+        <item>Medhi Benatia</item>
+        <item>Nabil Dirar</item>
+        <item>Romain Saiss</item>
+        <item>Fouad Chafik</item>
+        <item>Hamza Mendyl</item>
+        <item>Achraf Hakimi</item>
+        <item>Mbark Boussoufa</item>
+        <item>Karim El Ahmadi</item>
+        <item>Younes Belhanda</item>
+        <item>Nordin Amrabat</item>
+        <item>Faycal Fajr</item>
+        <item>Hakim Ziyech</item>
+        <item>Youssef Ait Bennasser</item>
+        <item>Khalid Boutaib</item>
+        <item>Rachid Alioui</item>
+        <item>Aziz Bouhaddouz</item>
+        <item>Youssef En-Nesyri</item>
+    </string-array>
+    <!-- Iran Team 172-191 -->
+    <string-array
+        name="iran_stickers">
+        <item>Iran Logo</item>
+        <item>Iran Photo</item>
+        <item>Alireza Beiranvand</item>
+        <item>Pejman Montazeri</item>
+        <item>Vouria Ghafouri</item>
+        <item>Jalal Hosseini</item>
+        <item>Milad Mohammadi</item>
+        <item>Morteza Pouraliganji</item>
+        <item>Ramin Rezaeian</item>
+        <item>Ehsan Hajsafi</item>
+        <item>Omid Ebrahimi</item>
+        <item>Saeid Ezatolahi</item>
+        <item>Vahid Amiri</item>
+        <item>Alireza Jahanbakhsh</item>
+        <item>Ashkan Dejagah</item>
+        <item>Saman Ghoddos</item>
+        <item>Mehdi Taremi</item>
+        <item>Karim Ansarifard</item>
+        <item>Reza Ghoochannejhad</item>
+        <item>Sardar Azmoun</item>
+    </string-array>
+    <!-- France Team 192-211 -->
+    <string-array
+        name="france_stickers">
+        <item>France Logo</item>
+        <item>France Photo</item>
+        <item>Hugo Lloris</item>
+        <item>Raphael Varane</item>
+        <item>Lucas Digne</item>
+        <item>Djibril Sidibe</item>
+        <item>Samuel Umtiti</item>
+        <item>Layvin Kurzawa</item>
+        <item>Laurent Koscielny</item>
+        <item>Blaise Matuidi</item>
+        <item>N'Golo Kante</item>
+        <item>Thomas Lemar</item>
+        <item>Adrien Rabiot</item>
+        <item>Paul Pogba</item>
+        <item>Olivier Giroud</item>
+        <item>Antoine Griezmann</item>
+        <item>Alexandre Lacazette</item>
+        <item>Kylian Mbappe</item>
+        <item>Ousmane Dembele</item>
+        <item>Anthony Martial</item>
+    </string-array>
+    <!-- Australia Team 212-231 -->
+    <string-array
+        name="australia_stickers">
+        <item>Australia Logo</item>
+        <item>Australia Photo</item>
+        <item>Mathew Ryan</item>
+        <item>Mitchell Langerak</item>
+        <item>Milos Degenek</item>
+        <item>Bailey Wright</item>
+        <item>Aziz Behich</item>
+        <item>Trent Sainsbury</item>
+        <item>Ryan McGowan</item>
+        <item>Mark Milligan</item>
+        <item>Aaron Mooy</item>
+        <item>James Troisi</item>
+        <item>Mile Jedinak</item>
+        <item>Massimo Luongo</item>
+        <item>Jackson Irvine</item>
+        <item>Tom Rogic</item>
+        <item>Tim Cahill</item>
+        <item>Mathew Leckie</item>
+        <item>Tomi Juric</item>
+        <item>Robbie Kruse</item>
+    </string-array>
+    <!-- Peru Team 232-251 -->
+    <string-array
+        name="peru_stickers">
+        <item>Peru Logo</item>
+        <item>Peru Photo</item>
+        <item>Pedro Gallese</item>
+        <item>Carlos Caceda</item>
+        <item>Aldo Corzo</item>
+        <item>Miguel Trauco</item>
+        <item>Christian Ramos</item>
+        <item>Luis Advincula</item>
+        <item>Alberto Rodriguez</item>
+        <item>Miguel Araujo</item>
+        <item>Christian Cueva</item>
+        <item>Renato Tapia</item>
+        <item>Andy Polo</item>
+        <item>Yoshimar Yotun</item>
+        <item>Edison Flores</item>
+        <item>Paolo Hurtado</item>
+        <item>Paolo Guerrero</item>
+        <item>Jefferson Farfan</item>
+        <item>Raul Ruidiaz</item>
+        <item>André Carrillo</item>
+    </string-array>
+    <!-- Denmark Team 252-271 -->
+    <string-array
+        name="denmark_stickers">
+        <item>Denmark Logo</item>
+        <item>Denmark Photo</item>
+        <item>Kasper Schmeichel</item>
+        <item>Jannik Vestergaard</item>
+        <item>Simon Kjaer</item>
+        <item>Andreas Christensen</item>
+        <item>Andreas Bjelland</item>
+        <item>Mathias Jorgensen</item>
+        <item>Jens Stryger Larsen</item>
+        <item>Peter Ankersen</item>
+        <item>Riza Durmisi</item>
+        <item>William Kvist</item>
+        <item>Thomas Delaney</item>
+        <item>Christian Eriksen</item>
+        <item>Lasse Schone</item>
+        <item>Pione Sisto</item>
+        <item>Nicklas Bendtner</item>
+        <item>Nicolai Jorgensen</item>
+        <item>Yussuf Poulsen</item>
+        <item>Andreas Cornelius</item>
+    </string-array>
+    <!-- Argentina Team 272-291 -->
+    <string-array
+        name="argentina_stickers">
+        <item>Argentina Logo</item>
+        <item>Argentina Photo</item>
+        <item>Sergio Romero</item>
+        <item>Gabriel Mercado</item>
+        <item>Federico Fazio</item>
+        <item>Javier Mascherano</item>
+        <item>Nicolas Otamendi</item>
+        <item>Marcos Rojo</item>
+        <item>Ramiro Funes Mori</item>
+        <item>Lucas Biglia</item>
+        <item>Enzo Perez</item>
+        <item>Ángel Di Maria</item>
+        <item>Marcos Acuna</item>
+        <item>Ever Banega</item>
+        <item>Eduardo Salvio</item>
+        <item>Mauro Icardi</item>
+        <item>Lionel Messi</item>
+        <item>Paulo Dybala</item>
+        <item>Sergio Aguero</item>
+        <item>Gonzalo Higuain</item>
+    </string-array>
+    <!-- Iceland Team 292-311 -->
+    <string-array
+        name="iceland_stickers">
+        <item>Iceland Logo</item>
+        <item>Iceland Photo</item>
+        <item>Hannes Halldorsson</item>
+        <item>Birkir Saevarsson</item>
+        <item>Ragnar Sigurosson</item>
+        <item>Kari Arnason</item>
+        <item>Ari Skulason</item>
+        <item>Sverrir Ingason</item>
+        <item>Hordur Magnusson</item>
+        <item>Aron Gunnarsson</item>
+        <item>Birkir Bjarnason</item>
+        <item>Emil Hallfredsson</item>
+        <item>Gylfi Sigurdsson</item>
+        <item>Arnor Ingvi Traustason</item>
+        <item>Rurik Gislason</item>
+        <item>Johann Gudmundsson</item>
+        <item>Alfred Finnbogason</item>
+        <item>Jon Dadi Bodvarsson</item>
+        <item>Vidar Orn Kjartansson</item>
+        <item>Bjorn Sigurdarson</item>
+    </string-array>
+    <!-- Croatia Team 312-331 -->
+    <string-array
+        name="croatia_stickers">
+        <item>Croatia Logo</item>
+        <item>Croatia Photo</item>
+        <item>Danijel Subasic</item>
+        <item>Sime Vrsaljko</item>
+        <item>Ivan Strinic</item>
+        <item>Dejan Lovren</item>
+        <item>Domagoj Vida</item>
+        <item>Josip Pivaric</item>
+        <item>Vedran Corluka</item>
+        <item>Ivan Rakitic</item>
+        <item>Luka Modric</item>
+        <item>Marcelo Brozovic</item>
+        <item>Marko Rog</item>
+        <item>Mario Pasalic</item>
+        <item>Milan Badelj</item>
+        <item>Mateo Kovacic</item>
+        <item>Andrej Kramaric</item>
+        <item>Nikola Kalinic</item>
+        <item>Mario Mandzukic</item>
+        <item>Ivan Perisic</item>
+    </string-array>
+    <!-- Nigeria Team 332-351 -->
+    <string-array
+        name="nigeria_stickers">
+        <item>Nigeria Logo</item>
+        <item>Nigeria Photo</item>
+        <item>Ikechukwu Ezenwa</item>
+        <item>Elderson Echiejile</item>
+        <item>Shehu Abdullahi</item>
+        <item>William Troost-Ekong</item>
+        <item>Leon Balogun</item>
+        <item>Kenneth Omeruo</item>
+        <item>Ola Aina</item>
+        <item>John Obi Mikel</item>
+        <item>Ogenyi Onazi</item>
+        <item>Etebo Oghenekaro</item>
+        <item>Wilfred Ndidi</item>
+        <item>Mikel Agu</item>
+        <item>Ahmed Musa</item>
+        <item>Victor Moses</item>
+        <item>Moses Simon</item>
+        <item>Odion Ighalo</item>
+        <item>Alex Iwobi</item>
+        <item>Kelechi Iheanacho</item>
+    </string-array>
+    <!-- Brazil Team 352-371 -->
+    <string-array
+        name="brazil_stickers">
+        <item>Brazil Logo</item>
+        <item>Brazil Photo</item>
+        <item>Alisson</item>
+        <item>Dani Alves</item>
+        <item>Thiago Silva</item>
+        <item>Miranda</item>
+        <item>Filipe Luís</item>
+        <item>Marquinhos</item>
+        <item>Marcelo</item>
+        <item>Willian</item>
+        <item>Paulinho</item>
+        <item>Fernandinho</item>
+        <item>Casemiro</item>
+        <item>Renato Augusto</item>
+        <item>Giuliano</item>
+        <item>Philippe Coutinho</item>
+        <item>Douglas Costa</item>
+        <item>Roberto Firmino</item>
+        <item>Gabriel Jesus</item>
+        <item>Neymar Jr</item>
+    </string-array>
+    <!-- Switzerland Team 372-391 -->
+    <string-array
+        name="switzerland_stickers">
+        <item>Switzerland Logo</item>
+        <item>Switzerland Photo</item>
+        <item>Yann Sommer</item>
+        <item>Stephan Lichtsteiner</item>
+        <item>Manuel Akanji</item>
+        <item>Michael Lang</item>
+        <item>Ricardo Rodriguez</item>
+        <item>Johan Djourou</item>
+        <item>Fabian Schar</item>
+        <item>Granit Xhaka</item>
+        <item>Steven Zuber</item>
+        <item>Blerim Dzemaili</item>
+        <item>Denis Zakaria</item>
+        <item>Xherdan Shaqiri</item>
+        <item>Valon Behrami</item>
+        <item>Gelson Fernandes</item>
+        <item>Breel Embolo</item>
+        <item>Haris Seferovic</item>
+        <item>Admir Mehmedi</item>
+        <item>Eren Derdiyok</item>
+    </string-array>
+    <!-- Costa Rica Team 392-411 -->
+    <string-array
+        name="costa_rica_stickers">
+        <item>Costa Rica Logo</item>
+        <item>Costa Rica Photo</item>
+        <item>Keylor Navas</item>
+        <item>Giancarlo Gonzalez</item>
+        <item>Cristian Gamboa</item>
+        <item>Bryan Oviedo</item>
+        <item>Francisco Calvo</item>
+        <item>Kendall Waston</item>
+        <item>Ronald Matarrita</item>
+        <item>Michael Umana</item>
+        <item>Johnny Acosta</item>
+        <item>Bryan Ruiz</item>
+        <item>Celso Borges</item>
+        <item>Christian Bolanos</item>
+        <item>Randall Azofeifa</item>
+        <item>David Guzman</item>
+        <item>Rodney Wallace</item>
+        <item>Joel Campbell</item>
+        <item>Marco Urena</item>
+        <item>Johan Venegas</item>
+    </string-array>
+    <!-- Serbia Team 412-431 -->
+    <string-array
+        name="serbia_stickers">
+        <item>Serbia Logo</item>
+        <item>Serbia Photo</item>
+        <item>Vladimir Stojkovic</item>
+        <item>Branislav Ivanovic</item>
+        <item>Aleksandar Kolarov</item>
+        <item>Antonio Rukavina</item>
+        <item>Matija Nastasic</item>
+        <item>Dusko Tosic</item>
+        <item>Nikola Maksimovic</item>
+        <item>Jagos Vukovic</item>
+        <item>Dusan Tadic</item>
+        <item>Sergej Milinkovic-Savic</item>
+        <item>Nemanja Matic</item>
+        <item>Luka Milivojevic</item>
+        <item>Adem Ljajic</item>
+        <item>Nemanja Gudelj</item>
+        <item>Mijat Gacinovic</item>
+        <item>Filip Kostic</item>
+        <item>Aleksandar Mitrovic</item>
+        <item>Aleksandar Prijovic</item>
+    </string-array>
+    <!-- Germany Team 432-451 -->
+    <string-array
+        name="germany_stickers">
+        <item>Germany Logo</item>
+        <item>Germany Photo</item>
+        <item>Manuel Neuer</item>
+        <item>Mats Hummels</item>
+        <item>Antonio Rudiger</item>
+        <item>Jerome Boateng</item>
+        <item>Joshua Kimmich</item>
+        <item>Jonas Hector</item>
+        <item>Julian Draxler</item>
+        <item>Toni Kroos</item>
+        <item>Emre Can</item>
+        <item>Leon Goretzka</item>
+        <item>Julian Brandt</item>
+        <item>Sebastian Rudy</item>
+        <item>Leroy Sane</item>
+        <item>Mesut Ozil</item>
+        <item>Sami Khedira</item>
+        <item>Mario Gotze</item>
+        <item>Thomas Muller</item>
+        <item></item>
+    </string-array>
+    <!-- Mexico Team 452-471 -->
+    <string-array
+        name="mexico_stickers">
+        <item>Mexico Logo</item>
+        <item>Mexico Photo</item>
+        <item>Guillermo Ochoa</item>
+        <item>Hugo Ayala</item>
+        <item>Diego Reyes</item>
+        <item>Hector Moreno</item>
+        <item>Jesús Gallardo</item>
+        <item>Miguel Layun</item>
+        <item>Carlos Salcedo</item>
+        <item>Jonathan dos Santos</item>
+        <item>Giovani dos Santos</item>
+        <item>Andrés Guardado</item>
+        <item>Héctor Herrera</item>
+        <item>Javier Aquino</item>
+        <item>Jesus Corona</item>
+        <item>Hirving Lozano</item>
+        <item>Raul Jimenez</item>
+        <item>Carlos Vela</item>
+        <item>Javier Hernandez</item>
+        <item>Oribe Peralta</item>
+    </string-array>
+    <!-- Sweden Team 472-491 -->
+    <string-array
+        name="sweden_stickers">
+        <item>Sweden Logo</item>
+        <item>Sweden Photo</item>
+        <item>Robin Olsen</item>
+        <item>Mikael Lustig</item>
+        <item>Victor Nilsson Lindelof </item>
+        <item>Andreas Granqvist</item>
+        <item>Martin Olsson</item>
+        <item>Ludwig Augustinsson</item>
+        <item>Emil Krafth</item>
+        <item>Pontus Jansson</item>
+        <item>Sebastian Larsson</item>
+        <item>Emil Forsberg</item>
+        <item>Gustav Svensson</item>
+        <item>Viktor Claesson</item>
+        <item>Jimmy Durmaz</item>
+        <item>Albin Ekdal</item>
+        <item>Isaac Kiese Thelin</item>
+        <item>Marcus Berg</item>
+        <item>John Guidetti</item>
+        <item>Ola Toivonen</item>
+    </string-array>
+    <!-- Korea Republic Team 492-511 -->
+    <string-array
+        name="korea_republic_stickers">
+        <item>Korea Republic Logo</item>
+        <item>Korea Republic Photo</item>
+        <item>Kim Seung-gyu</item>
+        <item>Kim Young-gwon</item>
+        <item>Kim Jin-su</item>
+        <item>Kwak Tae-hwi</item>
+        <item>Hong Jeong-ho</item>
+        <item>Jang Hyun-soo</item>
+        <item>Koo Ja-cheol</item>
+        <item>Kwon Chang-hoon</item>
+        <item>Ki Sung-yueng</item>
+        <item>Nam Tae-hee</item>
+        <item>Han Kook-young</item>
+        <item>Lee Chung-yong</item>
+        <item>Jung Woo-young</item>
+        <item>Lee Jae-sung</item>
+        <item>Son Heung-min</item>
+        <item>Ji Dong-won</item>
+        <item>Kim Shin-wook</item>
+        <item>Hwang Hee-chan</item>
+    </string-array>
+    <!-- Belgium Team 512-531 -->
+    <string-array
+        name="belgium_stickers">
+        <item>Belgium Logo</item>
+        <item>Belgium Photo</item>
+        <item>Thibaut Courtois</item>
+        <item>Toby Alderweireld</item>
+        <item>Thomas Vermaelen</item>
+        <item>Jan Vertonghen</item>
+        <item>Vincent Kompany</item>
+        <item>Thomas Meunier</item>
+        <item>Axel Witsel</item>
+        <item>Radja Nainggolan</item>
+        <item>Kevin De Bruyne</item>
+        <item>Marouane Fellaini</item>
+        <item>Youri Tielemans</item>
+        <item>Mousa Dembele</item>
+        <item>Nacer Chadli</item>
+        <item>Eden Hazard</item>
+        <item>Yannick Carrasco</item>
+        <item>Dries Mertens</item>
+        <item>Michy Batshuayi</item>
+        <item>Romelu Lukaku</item>
+    </string-array>
+    <!-- Panama Team 532-551 -->
+    <string-array
+        name="panama_stickers">
+        <item>Panama Logo</item>
+        <item>Panama Photo</item>
+        <item>Jaime Penedo</item>
+        <item>Jose Calderon</item>
+        <item>Michael Murillo</item>
+        <item>Fidel Escobar</item>
+        <item>Roman Torres</item>
+        <item>Adolfo Machado</item>
+        <item>Eric Davis</item>
+        <item>Luis Ovalle</item>
+        <item>Felipe Baloy</item>
+        <item>Gabriel Gomez</item>
+        <item>Edgar Barcenas</item>
+        <item>Armando Cooper</item>
+        <item>Alberto Quintero</item>
+        <item>Aníbal Godoy</item>
+        <item>Blas Perez</item>
+        <item>Gabriel Torres</item>
+        <item>Luis Tejada</item>
+        <item>Abdiel Arroyo</item>
+    </string-array>
+    <!-- Tunisia Team 552-571 -->
+    <string-array
+        name="tunisia_stickers">
+        <item>Tunisia Logo</item>
+        <item>Tunisia Photo</item>
+        <item>Aymen Mathlouthi</item>
+        <item>Ali Maaloul</item>
+        <item>Syam Ben Youssef</item>
+        <item>Aymen Abdennour</item>
+        <item>Hamdi Nagguez</item>
+        <item>Yassine Meriah</item>
+        <item>Oussama Haddadi</item>
+        <item>Ferjani Sassi</item>
+        <item>Wahbi Khazri</item>
+        <item>Mohamed Amine Ben Amor</item>
+        <item>Ghailene Chaalali</item>
+        <item>Naim Sliti</item>
+        <item>Youssef Msakni</item>
+        <item>Fakhreddine Ben Youssef</item>
+        <item>Taha Yassine Khenissi</item>
+        <item>Yoann Touzghar</item>
+        <item>Anice Badri</item>
+        <item>Ahmed Akaichi</item>
+    </string-array>
+    <!-- England Team 572-591 -->
+    <string-array
+        name="england_stickers">
+        <item>England Logo</item>
+        <item>England Photo</item>
+        <item>Joe Hart</item>
+        <item>Jordan Pickford</item>
+        <item>Gary Cahill</item>
+        <item>Kyle Walker</item>
+        <item>John Stones</item>
+        <item>Ryan Bertrand</item>
+        <item>Danny Rose</item>
+        <item>Phil Jones</item>
+        <item>Jordan Henderson</item>
+        <item>Alex Oxlade-Chamberlain</item>
+        <item>Dele Alli</item>
+        <item>Eric Dier</item>
+        <item>Adam Lallana</item>
+        <item>Jesse Lingard</item>
+        <item>Raheem Sterling</item>
+        <item>Harry Kane</item>
+        <item>Marcus Rashford</item>
+        <item>Jamie Vardy</item>
+    </string-array>
+    <!-- Poland Team 592-611 -->
+    <string-array
+        name="poland_stickers">
+        <item>Poland Logo</item>
+        <item>Poland Photo</item>
+        <item>Lukasz Fabianski</item>
+        <item>Wojciech Szczesny</item>
+        <item>Lukasz Piszczek</item>
+        <item>Kamil Glik</item>
+        <item>Michal Pazdan</item>
+        <item>Thiago Cionek</item>
+        <item>Bartosz Bereszynski</item>
+        <item>Artur Jedrzejczyk</item>
+        <item>Maciej Rybus</item>
+        <item>Jakub Blaszczykowski</item>
+        <item>Kamil Grosicki</item>
+        <item>Grzegorz Krychowiak</item>
+        <item>Krzysztof Maczynski</item>
+        <item>Piotr Zielinski</item>
+        <item>Karol Linetty</item>
+        <item>Robert Lewandowski</item>
+        <item>Lukasz Teodorczyk</item>
+        <item>Arkadiusz Milik</item>
+    </string-array>
+    <!-- Senegal Team 612-631 -->
+    <string-array
+        name="senegal_stickers">
+        <item>Senegal Logo</item>
+        <item>Senegal Photo</item>
+        <item>Khadim N'Diaye</item>
+        <item>Kara Mbodji</item>
+        <item>Lamine Gassama</item>
+        <item>Kalidou Koulibaly</item>
+        <item>Salif Sane</item>
+        <item>Saliou Ciss</item>
+        <item>Moussa Wague</item>
+        <item>Idrissa Gueye</item>
+        <item>Cheikhou Kouyate</item>
+        <item>Cheikh Ndoye</item>
+        <item>Pape Alioune N'Diaye</item>
+        <item>Sadio Mane</item>
+        <item>Moussa Sow</item>
+        <item>Moussa Konate</item>
+        <item>Keita Balde</item>
+        <item>M'Baye Niang</item>
+        <item>Ismaila Sarr</item>
+        <item>Mame Diouf</item>
+    </string-array>
+    <!-- Colombia Team 632-651 -->
+    <string-array
+        name="colombia_stickers">
+        <item>Colombia Logo</item>
+        <item>Colombia Photo</item>
+        <item>David Ospina</item>
+        <item>Cristian Zapata</item>
+        <item>Santiago Arias</item>
+        <item>Frank Fabra</item>
+        <item>Davinson Sanchez</item>
+        <item>Yerry Mina</item>
+        <item>Carlos Sanchez</item>
+        <item>Juan Guillermo Cuadrado</item>
+        <item>Abel Aguilar</item>
+        <item>James Rodriguez</item>
+        <item>Giovanni Moreno</item>
+        <item>Wílmar Barrios</item>
+        <item>Radamel Falcao Garcia</item>
+        <item>Teófilo Gutierrez</item>
+        <item>Carlos Bacca</item>
+        <item>Edwin Cardona</item>
+        <item>Yimmi Chara</item>
+        <item>Duvan Zapata</item>
+    </string-array>
+    <!-- Japan Team 652-671 -->
+    <string-array
+        name="japan_stickers">
+        <item>Japan Logo</item>
+        <item>Japan Photo</item>
+        <item>Eiji Kawashima</item>
+        <item>Shusaku Nishikawa</item>
+        <item>Masato Morishige</item>
+        <item>Yuto Nagatomo</item>
+        <item>Hiroki Sakai</item>
+        <item>Tomoaki Makino</item>
+        <item>Gōtoku Sakai</item>
+        <item>Maya Yoshida</item>
+        <item>Hotaru Yamaguchi</item>
+        <item>Shinji Kagawa</item>
+        <item>Makoto Hasebe</item>
+        <item>Hiroshi Kiyotake</item>
+        <item>Keisuke Honda</item>
+        <item>Takashi Usami</item>
+        <item>Genki Haraguchi</item>
+        <item>Shinji Okazaki</item>
+        <item>Yuya Kubo</item>
+        <item>Yuya Osako</item>
+    </string-array>
+    <!-- Legends 672-681 -->
+    <string-array
+        name="legends_stickers">
+        <item>Brazil 1958</item>
+        <item>Germany 2014</item>
+        <item>Italy 1982</item>
+        <item>Ururguay 1930</item>
+        <item>Argentina 1986</item>
+        <item>England 1966</item>
+        <item>France 1998</item>
+        <item>Spain 2010</item>
+        <item>Pele (Most Wins) - Brazil</item>
+        <item>Mirolsav Klose (Most Goals) - Germany</item>
     </string-array>
 </resources>
