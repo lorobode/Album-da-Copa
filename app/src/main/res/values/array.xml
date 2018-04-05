@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array
+        name="custom_stickers">
+        <item>Panini Logo</item>
+        <item>FIFA Logo</item>
+        <item>World Cup Trophy</item>
+        <item>2018 World Cup Graphic 1</item>
+        <item>2018 World Cup Graphic 2</item>
+        <item>2018 World Cup Logo 1</item>
+        <item>2018 World Cup Logo 2</item>
+        <item>Official Ball</item>
+    </string-array>
+</resources>
