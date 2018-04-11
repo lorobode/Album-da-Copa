@@ -4,14 +4,22 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    xmlns:numberpicker="http://schemas.android.com/apk/res-auto"
     android:background="?attr/selectableItemBackground"
     android:gravity="center_vertical"
     android:orientation="horizontal"
     android:padding="16dp">
 
-    <LinearLayout
-        android:layout_width="match_parent"
+    <android.support.v7.widget.AppCompatCheckBox
+        android:id="@+id/has_sticker"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:padding="6dp"/>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
         android:orientation="vertical">
 
         <TextView
@@ -26,8 +34,19 @@
             android:id="@+id/sticker_name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:lines="1"
+            android:ellipsize="end"
             tools:text="Sticker Name"/>
 
     </LinearLayout>
+
+    <com.travijuu.numberpicker.library.NumberPicker
+        android:id="@+id/sticker_counter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        numberpicker:min="1"
+        numberpicker:unit="1"
+        numberpicker:focusable="false"
+        android:visibility="gone"/>
 
 </LinearLayout>
