@@ -12,6 +12,15 @@ import org.jetbrains.anko.db.update
  * Created by Nichollas on 05/04/2018.
  */
 data class Sticker(val id: Int, val name: String, val number: Int, val type: String, val quantity: Int) {
+
+    override fun equals(other: Any?): Boolean {
+        if (this === other) return true
+        if (other == null || javaClass != other.javaClass) return false
+
+        val sticker = other as Sticker
+        return id == sticker.id
+    }
+
     companion object {
         val TABLE_NAME = "Sticker"
         val COLUMN_NAME = "name"
@@ -21,7 +30,31 @@ data class Sticker(val id: Int, val name: String, val number: Int, val type: Str
 
         fun list(database: MySqlHelper): List<Sticker> {
             return database.use {
-                select(Sticker.TABLE_NAME).exec { parseList(classParser<Sticker>()) }
+                select(Sticker.TABLE_NAME).exec { parseList(classParser()) }
+            }
+        }
+
+        fun repeated(database: MySqlHelper): List<Sticker> {
+            return database.use {
+                select(Sticker.TABLE_NAME)
+                        .whereArgs("quantity > 1")
+                        .exec { parseList(classParser()) }
+            }
+        }
+
+        fun owned(database: MySqlHelper): List<Sticker> {
+            return database.use {
+                select(Sticker.TABLE_NAME)
+                        .whereArgs("quantity >= 1")
+                        .exec { parseList(classParser()) }
+            }
+        }
+
+        fun missing(database: MySqlHelper): List<Sticker> {
+            return database.use {
+                select(Sticker.TABLE_NAME)
+                        .whereArgs("quantity = 0")
+                        .exec { parseList(classParser()) }
             }
         }
     }

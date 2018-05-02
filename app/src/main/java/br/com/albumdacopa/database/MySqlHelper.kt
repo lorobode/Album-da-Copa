@@ -26,6 +26,10 @@ class MySqlHelper(ctx: Context) : ManagedSQLiteOpenHelper(ctx, "albumdb") {
         }
     }
 
+    override fun onOpen(db: SQLiteDatabase?) {
+        super.onOpen(db)
+    }
+
     override fun onCreate(db: SQLiteDatabase) {
         db.createTable(Sticker.TABLE_NAME, true,
                 "_id" to INTEGER + PRIMARY_KEY + AUTOINCREMENT,

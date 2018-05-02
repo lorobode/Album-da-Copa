@@ -1,52 +1,75 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<FrameLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     xmlns:numberpicker="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="?attr/selectableItemBackground"
-    android:gravity="center_vertical"
-    android:orientation="horizontal"
-    android:padding="16dp">
+    android:orientation="horizontal">
 
-    <android.support.v7.widget.AppCompatCheckBox
-        android:id="@+id/has_sticker"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:padding="6dp"/>
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        app:cardCornerRadius="2dp"
+        app:cardElevation="2dp"
+        android:layout_marginBottom="@dimen/cardMarginVertical"
+        android:layout_marginLeft="@dimen/cardMarginHorizontal"
+        android:layout_marginRight="@dimen/cardMarginHorizontal"
+        android:layout_marginTop="0dp"
+        app:cardPreventCornerOverlap="false"
+        app:contentPadding="0dp">
 
-    <LinearLayout
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:orientation="vertical">
-
-        <TextView
-            android:id="@+id/sticker_number"
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-            android:textStyle="bold"
-            tools:text="00"/>
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
 
-        <TextView
-            android:id="@+id/sticker_name"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:lines="1"
-            android:ellipsize="end"
-            tools:text="Sticker Name"/>
+            <android.support.v7.widget.AppCompatCheckBox
+                android:id="@+id/has_sticker"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="6dp"
+                android:theme="@style/MyCheckBox"/>
 
-    </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
 
-    <com.travijuu.numberpicker.library.NumberPicker
-        android:id="@+id/sticker_counter"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        numberpicker:min="1"
-        numberpicker:unit="1"
-        numberpicker:focusable="false"
-        android:visibility="gone"/>
+                <TextView
+                    android:id="@+id/sticker_number"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:textStyle="bold"
+                    tools:text="00"/>
 
-</LinearLayout>
+                <TextView
+                    android:id="@+id/sticker_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:lines="1"
+                    android:ellipsize="end"
+                    tools:text="Sticker Name"/>
+
+            </LinearLayout>
+
+            <com.travijuu.numberpicker.library.NumberPicker
+                android:id="@+id/sticker_counter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                numberpicker:min="1"
+                numberpicker:unit="1"
+                numberpicker:focusable="false"
+                android:visibility="gone"/>
+
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+</FrameLayout>

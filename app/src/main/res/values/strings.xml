@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">AlbumDaCopa</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="repeated_stickers">Figurinhas repetidas</string>
+    <string name="repeated_stickers_text">Atualmente você tem: %1$d figurinhas repetidas. \n Deseja compartilhar quais figurinhas você tem repetidas?</string>
+    <string name="owned_stickers">Figurinhas adquiridas</string>
+    <string name="owned_stickers_text">Atualmente você tem: %1$d figurinhas adquiridas. \n Deseja compartilhar quais figurinhas você já possui?</string>
+    <string name="missing_stickers">Figurinhas que faltam</string>
+    <string name="missing_stickers_text">Atualmente faltam: %1$d figurinhas. \n Deseja compartilhar quais figurinhas faltam pra você?</string>
+
+    <string name="openDrawer">open_drawer</string>
+    <string name="closeDrawer">close_drawer</string>
+    <!-- Navigation Drawer menu labels -->
+    <string name="nav_stickers">Figurinhas</string>
+    <string name="nav_settings">Settings</string>
 </resources>

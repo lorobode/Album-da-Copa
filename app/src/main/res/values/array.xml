@@ -39,10 +39,9 @@
         <item>Rostov-On-Don</item>
         <item>Volgogarad</item>
         <item>Kazan</item>
+        <item>Nizhny Novgorod</item>
         <item>Samara Arena</item>
         <item>Mordovia Arena</item>
-        <item>Nizhny Novgorod</item>
-        <item>Samara</item>
         <item>Ekaterinburg</item>
         <item>Saransk</item>
     </string-array>
@@ -548,7 +547,7 @@
         <item>Sami Khedira</item>
         <item>Mario Gotze</item>
         <item>Thomas Muller</item>
-        <item></item>
+        <item>Timo Werner</item>
     </string-array>
     <!-- Mexico Team 452-471 -->
     <string-array
@@ -762,7 +761,7 @@
         <item>Moussa Sow</item>
         <item>Moussa Konate</item>
         <item>Keita Balde</item>
-        <item>M'Baye Niang</item>
+        <item>M\'Baye Niang</item>
         <item>Ismaila Sarr</item>
         <item>Mame Diouf</item>
     </string-array>

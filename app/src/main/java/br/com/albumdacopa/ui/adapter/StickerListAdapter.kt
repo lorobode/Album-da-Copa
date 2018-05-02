@@ -5,12 +5,11 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.CheckBox
-import android.widget.CompoundButton
 import android.widget.TextView
 import br.com.albumdacopa.R
 import br.com.albumdacopa.model.Sticker
-import br.com.albumdacopa.ui.utils.ctx
-import com.travijuu.numberpicker.library.Enums.ActionEnum
+import br.com.albumdacopa.ui.fragments.StickerListFragment
+import br.com.albumdacopa.utils.ctx
 import com.travijuu.numberpicker.library.NumberPicker
 import org.jetbrains.anko.find
 
@@ -18,8 +17,9 @@ import org.jetbrains.anko.find
  * Created by Nichollas on 05/04/2018.
  */
 class StickerListAdapter(private val stickerList: MutableList<Sticker>,
+                         private val stickerListType: String,
                          private val checkBoxClick: (Sticker, Boolean) -> Unit,
-                         private val stickerValueChanged: (Sticker) -> Unit) :
+                         private val stickerValueChanged: (Sticker, Int) -> Unit) :
         RecyclerView.Adapter<StickerListAdapter.ViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
@@ -33,6 +33,31 @@ class StickerListAdapter(private val stickerList: MutableList<Sticker>,
 
     override fun getItemCount(): Int = stickerList.size
 
+    fun setStickerList(stickerList: List<Sticker>) {
+        this.stickerList.clear()
+        this.stickerList.addAll(stickerList)
+    }
+
+    fun removeSticker(sticker: Sticker) {
+        if (stickerListType == StickerListFragment.REPEATED_STICKERS) stickerList.remove(sticker)
+        else stickerList[stickerList.indexOf(sticker)] = sticker
+    }
+
+    fun updateStickerCount(sticker: Sticker) {
+
+        val index = stickerList.indexOf(sticker)
+        if (stickerListType == StickerListFragment.REPEATED_STICKERS && sticker.quantity > 1 && index < 0) {
+            stickerList.add(sticker)
+            stickerList.sortBy { it.id }
+            notifyDataSetChanged()
+        } else if (stickerListType == StickerListFragment.REPEATED_STICKERS && sticker.quantity < 2 && index > -1) {
+            stickerList.remove(sticker)
+            notifyDataSetChanged()
+        } else {
+            stickerList[stickerList.indexOf(sticker)] = sticker
+        }
+    }
+
     class ViewHolder(view: View) : RecyclerView.ViewHolder(view) {
 
         private val hasStickerCheckBox = view.find<CheckBox>(R.id.has_sticker)
@@ -43,7 +68,7 @@ class StickerListAdapter(private val stickerList: MutableList<Sticker>,
         fun bindForecast(stickerList: MutableList<Sticker>,
                          position: Int,
                          checkBoxClick: (Sticker, Boolean) -> Unit,
-                         stickerValueChanged: (Sticker) -> Unit) {
+                         stickerValueChanged: (Sticker, Int) -> Unit) {
             with(stickerList[position]) {
                 hasStickerCheckBox.setOnCheckedChangeListener(null)
                 stickerCounter.valueChangedListener = null
@@ -71,11 +96,11 @@ class StickerListAdapter(private val stickerList: MutableList<Sticker>,
                 }
 
                 stickerCounter.setValueChangedListener { value, _ ->
-                    if(value < 1) {
+                    if (value < 1) {
                         return@setValueChangedListener
                     }
                     stickerList[position] = copy(quantity = value)
-                    stickerValueChanged(stickerList[position])
+                    stickerValueChanged(stickerList[position], value)
                 }
             }
         }

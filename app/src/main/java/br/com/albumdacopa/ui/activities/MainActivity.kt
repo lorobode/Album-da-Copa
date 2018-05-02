@@ -1,34 +1,53 @@
 package br.com.albumdacopa.ui.activities
 
 import android.os.Bundle
-import android.support.v7.app.AppCompatActivity
-import android.support.v7.widget.LinearLayoutManager
-import android.support.v7.widget.RecyclerView
+import android.support.v4.content.ContextCompat
+import android.support.v7.widget.Toolbar
 import br.com.albumdacopa.R
-import br.com.albumdacopa.database.database
-import br.com.albumdacopa.model.*
-import br.com.albumdacopa.ui.adapter.StickerListAdapter
-import com.travijuu.numberpicker.library.Enums.ActionEnum
-import kotlinx.android.synthetic.main.activity_main.*
+import br.com.albumdacopa.ui.adapter.PageAdapter
+import br.com.albumdacopa.ui.fragments.StickerListFragment
+import com.github.florent37.materialviewpager.MaterialViewPager
+import com.github.florent37.materialviewpager.header.HeaderDesign
 import org.jetbrains.anko.ctx
-import org.jetbrains.anko.doAsync
 import org.jetbrains.anko.find
-import org.jetbrains.anko.uiThread
 
-class MainActivity : AppCompatActivity() {
 
-    private val stickerList: RecyclerView by lazy {
-        find<RecyclerView>(R.id.stickers_list)
-    }
+class MainActivity : DrawerActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        loadStickerList()
+        val pageAdapter = PageAdapter(supportFragmentManager)
+
+        /*val toolbar: Toolbar = materialViewPager.toolbar
+        setSupportActionBar(toolbar)
+
+        pageAdapter.add(StickerListFragment.newInstance(StickerListFragment.ALL_STICKERS))
+        pageAdapter.add(StickerListFragment.newInstance(StickerListFragment.REPEATED_STICKERS))
+
+        materialViewPager.viewPager.adapter = pageAdapter
+
+        materialViewPager.setMaterialViewPagerListener(MaterialViewPager.Listener { page ->
+            when (page) {
+                0 -> return@Listener HeaderDesign.fromColorResAndDrawable(R.color.green, ContextCompat.getDrawable(ctx, R.drawable.background))
+                1 -> return@Listener HeaderDesign.fromColorResAndDrawable(R.color.red, ContextCompat.getDrawable(ctx, R.drawable.background))
+            }
+            null
+        })
+
+        materialViewPager.viewPager.offscreenPageLimit = (materialViewPager.viewPager.adapter as PageAdapter).count
+        materialViewPager.pagerTitleStrip.setViewPager(materialViewPager.viewPager)*/
+
+        super.onCreate(savedInstanceState)
+
+        /*findViewById<View>(R.id.logo_white)?.setOnClickListener {
+            materialViewPager.notifyHeaderChanged()
+            Toast.makeText(applicationContext, "Yes, the title is clickable", Toast.LENGTH_SHORT).show()
+        }*/
+
     }
 
-    private fun loadStickerList() {
+    /*private fun loadStickerList() {
         stickerList.layoutManager = LinearLayoutManager(ctx)
         fab.setOnClickListener { stickerList.scrollToPosition(0) }
 
@@ -45,5 +64,6 @@ class MainActivity : AppCompatActivity() {
                 stickerList.adapter = StickerListAdapter(stickers.toMutableList(), checkBoxChecked, stickerValueChanged)
             }
         }
-    }
+    }*/
+
 }

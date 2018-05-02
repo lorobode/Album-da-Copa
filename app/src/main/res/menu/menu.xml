@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/all_stickers"
+          android:title="All"
+          android:icon="@drawable/ic_launcher_background" />
+
+    <item android:id="@+id/repeated_stickers"
+          android:title="Repeated"
+          android:icon="@mipmap/ic_launcher" />
+</menu>
